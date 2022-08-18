@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            color: white;
+        }
+    
+        #container {
+            padding: 1em;
+            border: 5px solid white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        #logo {
+            width: 160px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+
+        h1 {
+            border-bottom: 1px solid white;
+            font-weight: bold;
+        }
+
+        #inner-content {
+            width: 100%;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div id="container">
+        <img src="./images/ML_LOGO.jpg" id="logo" />
+        <h1>ML - Practical 2</h1>
+        <div id="inner-content">
+            Implement the data preprocessing techniques on the same selected data of your choosen domain and provide a detailed inference related to each and every preprocessing task like:
+            <ol>
+                <li>Identify unique values</li>
+                <li>Finding missing values</li>
+                <li>Replacing missing values and null values</li>
+                <li>Normalising data using standard scaler or minmax scaler</li>
+                <li>Apply KNN for the preprocessed dataset use 5 different K Values and 3 different distance measures</li>
+                <li>Display the confusion matrix, accuracy measures, classification report</li>
+                <li>Provide appropriate inference for every task performed</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
